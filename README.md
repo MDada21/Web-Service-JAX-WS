@@ -9,6 +9,6 @@ Service : Une classe BanqueService qui permet de convertir des Euros en DH et de
 Publication : Utilisation de Endpoint.publish() pour rendre le service accessible.
 
 2. Analyse et Test
-WSDL : Accessible sur http://localhost:9191/BanqueWS?wsdl. Il décrit la structure du service.
+WSDL : Accessible sur http://localhost:port/?wsdl. Il décrit la structure du service.
 
 Tests : Utilisation de SoapUI pour envoyer des requêtes XML et recevoir les réponses du serveur.
